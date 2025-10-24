@@ -144,7 +144,7 @@ table.bio tbody tr:nth-child(odd) {
 }
 
 .bio tr:first-child,
-.laststoke th:first-child {
+.laststroke th:first-child {
     background-color: aliceblue;
 }
 
@@ -156,39 +156,114 @@ border-radius: 20px;
 padding: 20px;
 }
 
-#bio input {
-    background-color: khaki;
+.apple {
+    color: blueviolet;
+}
+.laststroke {
+    color: blueviolet;
+}
+
+#form {
+    background-color: azure;
+    width: 100%;
+    max-width: 500px;
+    padding: 20px;
+    background-color: azure;
+}
+
+#bio-example {
+    background-color: gray;
     border-radius: 5px;
     padding: 5px 10px 10px;
-    border: 1px cornflowerblue;
+    border: 5px cornflowerblue;
     margin-top: 10px;
     margin-bottom: 10px;
+    margin: auto;
+    width: 300px;
 }
 
-#form-example input[type=submit] {
-    background-color: darkcyan;
+#bio-example input[type=submit] {
+    background-color: antiquewhite;
 }
 
-#form-example input[type=reset] {
-    background-color: darkcyan;
+#bio-example [type=reset] {
+    background-color: antiquewhite;
     border: none;
 }
 
-#form-example input[type=radio] {
-    accent-color: green;
+#bio-example [type=radio] {
+    accent-color: antiquewhite;
 }
 
-#form-example textarea {
-    background-color: khaki;
-    border-radius: 5px;
-    padding: 5px 10px 10px;
-    border: 1px cornflowerblue;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    height: 150px;
-}
+
 
 #form-example textarea[disabled]{
     background-color: lightgray;
     border:  gray 1px solid;
+}
+
+#bio-example textarea {
+    background-color: antiquewhite;
+}
+#bio-example select {
+    background-color: antiquewhite;
+}
+#bio-example input[type="submit"]:hover {
+    background-color: blueviolet;   
+}
+#bio-example input[type="name"] {
+    height: 20px;
+    width: 250px;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: white solid 1px;
+    background-color: antiquewhite;
+}
+#bio-example input[type="email"] {
+    height: 20px;
+    width: 250px;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: white solid 1px;
+    background-color: antiquewhite;
+}
+#bio-example input[type="tel"] {
+    height: 20px;
+    width: 250px;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: white solid 1px;
+    background-color: antiquewhite;
+}
+#bio-example input[type="date"] {
+    height: 20px;
+    width: 250px;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: white solid 1px;
+    background-color: antiquewhite;
+}
+#bio-example input[type="comment"] {
+    height: 20px;
+    width: 250px;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: white solid 1px;
+    background-color: antiquewhite;
+}
+#bio-example select[type="theme"] {
+    height: 30px;
+    width: 260px;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: white solid 1px;
+    background-color: antiquewhite;
+}
+#bio-example textarea[type="comment"] {
+    height: 160px;
+    width: 250px;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: white solid 1px;
+    background-color: antiquewhite;
 }
