@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <table class="table-example">
+        <caption>Счет</caption>
+        <thead>
+            <tr>
+                <th>Наименование</th>
+                <th>Цена</th>
+                <th>Кол-во</th>
+                <th class="my-th">Итог</th>
+            </tr>
+        </thead>
+        <tbody>
+             <tr>
+                <td>Ручка</td>
+                <td>50</td>
+                <td rowspan="2">10</td>
+                <td>500</td>
+             </tr>
+             <tr>
+                <td>Тетрадь</td>
+                <td>25</td>
+                <td>15</td>
+             </tr>
+             <tr>
+                <td>Линейка</td>
+                <td>10</td>
+                <td>10</td>
+                <td>100</td>
+             </tr>
+             <tr>
+                <td colspan="3">Итог</td>
+                <td>975</td>
+            </tr>
+        </tbody>
+    </table>
+
+
+
+
+
+
+    <form id="form-example" action="">
+        <label for="login">Введите логин:</label><br>
+        <input type="text" id="login"
+        placeholder="Логин" required><br>
+        <label for="password">Введите пароль:</label><br>
+        <input type="password" id="password"
+        placeholder="Пароль" required><br>
+        <label for="email">Введите почту</label><br>
+        <input type="email" id="email"
+        placeholder="Электронная почта" required><br>
+        <input type="radio" name="gender" checked id="male">
+        <label for="male">M</label>
+        <input type="radio" name="gender" id="fmale">
+        <label for="fmale">F</label><br>
+
+        <label for="role">Выберите роль</label><br>
+        <select id="role">
+            <option value="user">Пользователь</option>
+            <option value="boss">Босс</option>
+            <option value="godofroblox">Бог роблокса</option>
+            <option value="admin">Администратор</option>
+        </select><br>
+
+        <label for="comment">Комментарий</label><br>
+        <textarea name="" id="comment" placeholder="Ваш комментарий"></textarea><br>
+
+        <input type="submit" value="Зарегистрироваться"><br>
+        <input type="reset">
+    </form>
+</body>
+</html>

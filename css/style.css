@@ -1,0 +1,194 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 1.2em;
+    font-family: "Montserrat Alternates", sans-serif;
+}
+
+body {
+    background-color: white;
+    font-size: 18px;
+}
+header {
+    background-color: whitesmoke;
+    text-align: center;
+    padding: 1rem;
+}
+#hi {
+    text-align: center;
+    font-size: 2em;
+}
+footer {
+    background-color: brown;
+    padding: 2.5rem;
+}
+h2 {
+    text-align: center;
+}
+
+#aboutme {
+    background-color: whitesmoke;
+    text-align: center;
+    padding: 2rem;
+
+}
+
+#articles {
+    background-color: wheat;
+    text-align: left;
+    padding: 2rem;
+}
+p::first-line {
+    text-align: justify;
+    padding: 10px 10px 10px 10px;
+    font-size: 1rem;
+    line-height: 2rem;
+}
+h1 {
+    font-size: 6rem;
+    text-decoration: underline;
+    text-transform: lowercase;
+    font-weight: 100;
+}
+nav {
+    padding: 2rem;
+
+}
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+#content {
+    text-align: center;
+}
+a:hover {
+    color: black;
+}
+a:focus {
+    color: blue;
+}
+#articles li {
+    padding: 10px;
+}
+#articles li:nth-child(odd) {
+    background-color: lightgoldenrodyellow;
+    width: 300px;
+    border-radius: 5px;
+    padding: 2px;
+}
+#content dt::after {
+    content: "   Важно!";
+    background-color: cornflowerblue;
+} 
+p::first-line {
+  letter-spacing: 0.07em;
+}
+#aboutme p {
+    font-weight: bold;
+    color: grey;
+}
+footer img {
+    border: 7px solid black;
+    border-radius: 35px;
+    border-style: double;
+}
+
+img+p {
+  margin-top: 15px;
+}
+
+.title {
+    letter-spacing: 2px;
+}
+
+p[lang="en"] {
+    font-style: italic;
+    color: #007bff;
+    border-left: 2px solid #007bff;
+    padding-left: 10px;
+}
+
+table.bio {
+    border: 5px solid black;
+    border-collapse: collapse;
+    color: black; 
+}
+
+table.bio td,
+table.bio th {
+    border: 3px black solid;
+    padding: 10px 10px 10px 10px;
+}
+
+table.bio td:nth-child(3){
+    text-align: center
+    color cyan;
+    font-weight: bold;
+}
+
+table.bio tbody tr:nth-child(odd) {
+    background-color: blueviolet;
+}
+
+.my-th {
+    color: brown;
+}
+
+.bio td:first-child,
+.bio th:first-child {
+    background-color: aliceblue;
+}
+
+.bio tr:first-child,
+.laststoke th:first-child {
+    background-color: aliceblue;
+}
+
+table.bio {
+background-color: darkorange;
+width: 375px;
+margin: 20px auto;
+border-radius: 20px;
+padding: 20px;
+}
+
+#bio input {
+    background-color: khaki;
+    border-radius: 5px;
+    padding: 5px 10px 10px;
+    border: 1px cornflowerblue;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#form-example input[type=submit] {
+    background-color: darkcyan;
+}
+
+#form-example input[type=reset] {
+    background-color: darkcyan;
+    border: none;
+}
+
+#form-example input[type=radio] {
+    accent-color: green;
+}
+
+#form-example textarea {
+    background-color: khaki;
+    border-radius: 5px;
+    padding: 5px 10px 10px;
+    border: 1px cornflowerblue;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 150px;
+}
+
+#form-example textarea[disabled]{
+    background-color: lightgray;
+    border:  gray 1px solid;
+}
